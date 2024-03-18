@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #3b3b4f;
+  background-color: #f4976c;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #0a0a23;
 }
@@ -19,14 +19,8 @@ main {
   padding: 40px 10px;
 }
 
-.freecodecamp-logo {
-  width: 100%;
-  height: 30px;
-  margin-bottom: 20px;
-}
-
 h1 {
-  color: white;
+  color: #fbe8a6;
   width: 100%;
   max-width: 480px;
   margin: 15px 0;
@@ -35,19 +29,19 @@ h1 {
 
 .phone-container {
   position: relative;
-  background-color: #dfdfe2;
+  background-color: #d2fdff;
   width: 250px;
   height: 460px;
   margin: 30px auto;
   border-radius: 15px;
-  border: 15px solid black;
+  border: 15px solid #303c6c;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .phone-background {
-  background-color: black;
+  background-color: #303c6c;
   width: 100%;
   height: 25px;
 }
@@ -75,7 +69,7 @@ label {
 }
 
 .phone-footer {
-  background-color: black;
+  background-color: #303c6c;
   width: 100%;
   height: 40px;
   position: absolute;
@@ -89,16 +83,17 @@ label {
   cursor: pointer;
   width: 100px;
   margin: 10px;
-  color: #0a0a23;
+  color: #1a2347;
   font-size: 18px;
-  background-color: #ffffff;
-  background-image: linear-gradient(#ffffff, #928d86);
+  background-color: #d2fdff;
+  background-image: linear-gradient(#d2fdff, #85a1a2);
   border-color: #ffffff;
-  border-width: 3px;
+  border-width: 1px;
+  border-radius: 5px;
 }
 
 .phone-camera {
-  background-color: #dfdfe2;
+  background-color: #000000;
   width: 10px;
   height: 10px;
   border-radius: 50%;
